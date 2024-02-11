@@ -1,0 +1,11 @@
+services:
+- type: web
+  name: ts-next-example
+  env: node
+  plan: starter
+  buildCommand: npm; npm build
+  startCommand: npm start
+  autoDeploy: false
+  envVars:
+  - key: NODE_ENV
+    value: production

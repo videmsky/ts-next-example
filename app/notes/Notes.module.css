@@ -1,0 +1,86 @@
+.pageTitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.grid {
+  margin-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.action {
+  text-align: left;
+  color: dodgerblue;
+}
+
+.note {
+  height: auto;
+  /* width: 200px; */
+  padding: 1.5rem;
+  margin: 0.5rem;
+  background: #ffff0078;
+  box-shadow: 4px 4px 8px 1px #00000075;
+  border-radius: 2px;
+}
+
+.container {
+  padding: 0 2rem;
+}
+
+.pageTitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+}
+
+.title {
+  padding: 0.1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.content {
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.created {
+  font-size: 0.7rem;
+  font-weight: lighter;
+}
+
+.action {
+  text-align: left;
+  color: dodgerblue;
+}
+
+.formWrap {
+  padding: 1.5rem;
+  outline-style: dashed;
+  outline-color: darkgrey;
+}
+
+.buttonInner {
+  width: 100%;
+  background: darkcyan;
+}
+
+.buttonInner:hover {
+  background: cyan;
+}
+
+.deleteButton {
+  float: right;
+  padding: 0.25rem 0.75rem;
+  background: #ffca00a1;
+}
+
+.deleteButton:hover {
+  background: cyan;
+}

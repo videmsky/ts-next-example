@@ -19,6 +19,7 @@
 # misc
 .DS_Store
 *.pem
+pocketbase
 
 # debug
 npm-debug.log*
@@ -34,3 +35,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# database
+/pb_data
+/pb_migrations
+pocketbase
